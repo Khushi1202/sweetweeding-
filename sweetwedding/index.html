@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Happy Happenings</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+
+	<!-- LOADER -->
+    <div id="preloader">
+		<div class="preloader pulse">
+			<h3>Happy Happenings </h3>
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+	
+	<!-- Start header -->
+	<header class="top-header">
+		<nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+				<a class="navbar-brand" href="index.html"><img width="140" src="data:image/jpeg;base64,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"  alt="image"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button> 
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link active" href="#home">Home</a></li>
+                        <li><a class="nav-link" href="#about">Create Design</a></li>
+						<li><a class="nav-link" href="#wedding">Manage Buget </a></li>
+                        <li><a class="nav-link" href="#Meeting">Meeting Room </a></li>
+						 <li><a class="nav-link" href="#florist">Florist</a></li>
+						<li><a class="nav-link" href="#Caterers">Caterers</a></li>
+						<li><a class="nav-link" href="#story">Memories</a></li>
+						<li><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+	</header>
+	<!-- End header -->
+	
+	<!-- Start Banner -->
+	<div class="home-slider">
+		<ul class="rslides">
+			<li><img src="images/slider-01.jpg" alt=""></li>
+			<li><img src="images/slider-02.jpg" alt=""></li>
+			<li><img src="images/slider-03.jpg" alt=""></li>
+		</ul>
+		<div class="lbox-details">
+			<h1>In your dreams, every details matter </h1>
+			<h2>We're getting married</h3>
+			<div class="countdown main-time clearfix">
+				<div id="timer">
+					<h3> 2 January 2022</h3>
+					<div id="days"></div>
+					<div id="hours"></div>
+					<div id="minutes"></div>
+					<div id="seconds"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Banner -->
+	
+	<!-- Start About us -->
+	<div id="about" class="about-box">
+		<div class="about-a1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="title-box">
+							<h2> Create Design <span> 
+						</div>
+					</div>
+				</div>
+				<div  class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="row align-items-center about-main-info">
+							<div class="col-lg-4 col-md-6 col-sm-12">
+								<div class="about-m">
+									<div class="about-img">
+										<img class="img-fluid" src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/10/wedding-venues-berlin-cover-img.jpg" alt="" />
+									</div>
+									
+								</div>
+							</div>
+							<div  class="col-lg-8 col-md-6 col-sm-12">
+								<h2> <i class="fa fa-heart-o" aria-hidden="true"></i> <span>Select Place</span> <i class="fa fa-heart-o" aria-hidden="true"></i></h2>
+								    
+                                  <p>Select a place</p>
+
+ <div>
+  <input type="radio" id="huey" name="drone" value="huey"
+         checked>
+  <label for="huey">Udaipur: Best Venues For Your Destination Wedding In Udaipur </label>
+</div>
+
+<div>
+  <input type="radio" id="dewey" name="drone" value="dewey">
+  <label for="dewey">Goa: Goa wedding you can choose from various beach resorts.</label>
+</div>
+
+<div>
+  <input type="radio" id="louie" name="drone" value="louie">
+  <label for="louie">Dubai:Dubai. Search Faster, Better & Smarter Here! Web, Images & Video</label>
+</div>
+<div>
+
+  <input type="radio" id="louie" name="drone" value="louie">
+  <label for="louie">New york: Central NYC. Weather-Friendly. </label>
+</div> 
+
+<div>
+    <button type="submit">Select</button>
+  </div> <br>
+  
+
+							</div>
+						</div>
+						<div class="row align-items-center about-main-info">
+							<div class="col-lg-4 col-md-6 col-sm-12">
+								<div class="about-m">
+									<div class="about-img">
+										<img class="img-fluid" src="https://cf.ltkcdn.net/weddings/images/orig/241606-1600x1030-top-wedding-flowers.jpg" alt="" />
+									</div>
+									
+								</div>
+							</div>
+							<div class="col-lg-8 col-md-6 col-sm-12">
+								<h2> <i class="fa fa-heart-o" aria-hidden="true"></i> <span>Add flowers </span> <i class="fa fa-heart-o" aria-hidden="true"></i></h2>
+								 <div>
+								 <p>Select Flowers</p>
+  <input type="radio" id="huey" name="drone" value="huey"
+         checked>
+  <label for="huey"> Rose</label>
+</div>
+
+<div>
+  <input type="radio" id="dewey" name="drone" value="dewey">
+  <label for="dewey"> Lily </label>
+</div>
+
+<div>
+  <input type="radio" id="louie" name="drone" value="louie">
+  <label for="louie">Daffodil. </label>
+</div>
+<div>
+
+  <input type="radio" id="louie" name="drone" value="louie">
+  <label for="louie"> Crocus.</label>
+</div> 
+
+<div>
+    <button type="submit">Add Flowers</button>
+  </div> <br><br>
+							</div>
+						</div>
+						
+						
+							</div>
+						</div>
+						
+						<div  class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="row align-items-center about-main-info">
+							<div class="col-lg-4 col-md-6 col-sm-12">
+								<div class="about-m">
+									<div class="about-img">
+										<img class="img-fluid" src="https://images.shaadisaga.com/shaadisaga_production/photos/pictures/001/135/920/original/blob?1570103073" alt="" />
+									</div>
+									
+								</div>
+							</div>
+							<div  class="col-lg-8 col-md-6 col-sm-12">
+								<h2> <i class="fa fa-heart-o" aria-hidden="true"></i> <span>Add Decoration</span> <i class="fa fa-heart-o" aria-hidden="true"></i></h2>
+								    
+                                  <p>Select Decorations </p>
+
+ <div>
+  <input type="radio" id="huey" name="drone" value="huey"
+         checked>
+  <label for="huey"> </label>
+</div>
+
+<div>
+  <input type="radio" id="dewey" name="drone" value="dewey">
+  <label for="dewey"> </label>
+</div>
+
+<div>
+  <input type="radio" id="louie" name="drone" value="louie">
+  <label for="louie"></label>
+</div>
+<div>
+
+  <input type="radio" id="louie" name="drone" value="louie">
+  <label for="louie"></label>
+</div> <br>
+
+<div>
+    <button type="submit">Select</button>
+  </div> 
+  
+
+							</div>
+						</div>
+						
+				<div id="gallery" class="gallery-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Save images </h2>
+						
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<ul class="popup-gallery clearfix">
+					<li>
+						<a href="images/gallery-01.jpg">
+							<img class="img-fluid" src="images/gallery-01.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-02.jpg">
+							<img class="img-fluid" src="images/gallery-02.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-03.jpg">
+							<img class="img-fluid" src="images/gallery-03.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-04.jpg">
+							<img class="img-fluid" src="images/gallery-04.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-05.jpg">
+							<img class="img-fluid" src="images/gallery-05.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-06.jpg">
+							<img class="img-fluid" src="images/gallery-06.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-07.jpg">
+							<img class="img-fluid" src="images/gallery-07.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-08.jpg">
+							<img class="img-fluid" src="images/gallery-08.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- End About us -->
+	
+
+	
+	
+	
+	<!-- Start Wedding -->
+	
+	<div id="wedding" class="wedding-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Manage Budget</h2>
+					
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="serviceBox">
+                        
+                        <h3 class="title">Total Budget</h3>
+
+						<label for="fname">Enter your amount:</label>
+						<input type="text" id="fname" name="fname"><br><br>
+                        
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="serviceBox">
+                        
+                        <h3 class="title">Amount Used </h3>
+						
+						<label for="fname">Enter Amount used:</label>
+						<input type="text" id="fname" name="fname"><br><br>
+                        
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="serviceBox">
+                       
+                        <h3 class="title">Amount Left </h3>
+						<label for="fname">Enter Amount Left:</label>
+						<input type="text" id="fname" name="fname"><br><br>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+			
+		</div>
+	</div>
+	
+	<!-- End Wedding -->
+	
+	<div id="Meeting" class="about-box">
+		<div class="about-a1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="title-box">
+							<h2> Meeting Room <span> 
+						</div>
+					</div>
+				</div>
+				<div  class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="row align-items-center about-main-info">
+							<div class="col-lg-4 col-md-6 col-sm-12">
+								<div class="about-m">
+									<div class="about-img">
+										<img class="img-fluid" src="https://res.cloudinary.com/bridebook/image/upload/u_two_people_plannign1,h_1.0,ar_3:2,c_fill,o_70,e_brightness_hsb:-50,f_auto/w_800,f_auto,q_auto/two_people_plannign1.jpg" alt="" />
+									</div>
+									
+								</div>
+							</div>
+							<div  class="col-lg-8 col-md-6 col-sm-12">
+								<h2> <i class="fa fa-heart-o" aria-hidden="true"></i> <span>Add link</span> <i class="fa fa-heart-o" aria-hidden="true"></i></h2>
+								    
+                                  <p>Select link</p>
+
+ <div>
+  <input type="radio" id="huey" name="drone" value="huey"
+         checked>
+  <label for="huey">Meeting for groom</label>
+</div>
+<div>
+  <input type="radio" id="huey" name="drone" value="huey"
+         checked>
+  <label for="huey">Meeting for Bride </label>
+</div>
+
+
+    <button type="submit">Add link </button>
+  </div> <br>
+  
+
+							</div>
+						</div>
+	<div id="florist" class="wedding-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2> Flourist </h2>
+						
+						<select class="custom-select d-block form-control" id="guest" required data-error="Please select an item in the list.">
+								  <option disabled selected>Select Flowers</option>
+								  <option value="1">Daisy </option>
+								  <option value="2">Jasmine</option>
+								  <option value="3">Calla Lily</option>
+								  <option value="3">Marigold</option>
+								</select>
+								
+					
+					<select class="custom-select d-block form-control" id="guest" required data-error="Please select an item in the list.">
+								  <option disabled selected>Select Vendor</option>
+								  <option value="1">Wedding Photographer/Videographer</option>
+								  <option value="2">Bakery</option>
+								  <option value="3">Caterer</option>
+								  <option value="3">DJ</option>
+								</select>
+								
+								<select class="custom-select d-block form-control" id="guest" required data-error="Please select an item in the list.">
+								  <option disabled selected>Deal if final</option>
+								  <option value="1">Yes</option>
+								  <option value="2">No</option>
+								 
+								</select>
+								
+								<select class="custom-select d-block form-control" id="guest" required data-error="Please select an item in the list.">
+								  <option disabled selected>Payment through</option>
+								  <option value="1">Online services</option>
+								  <option value="2">Cash on delivery</option>
+								 
+								</select>
+					</div>
+				</div>
+			</div>
+	
+	<div id="Caterers" class="wedding-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2> Caterers </h2>
+						
+						<select class="custom-select d-block form-control" id="guest" required data-error="Please select an item in the list.">
+								  <option disabled selected>Select type of Caterers/option>
+								  <option value="1">Social Event Catering</option>
+								  <option value="2">Concession Catering</option>
+								  <option value="3">Restaurant Catering</option>
+								  <option value="3">Wedding Catering</option>
+								</select>
+								
+					
+					<select class="custom-select d-block form-control" id="guest" required data-error="Please select an item in the list.">
+								  <option disabled selected>Select type of food</option>
+								  <option value="1">Indian</option>
+								  <option value="2">Mexican</option>
+								  <option value="3">Continental</option>
+								  <option value="3">Chinese</option>
+								</select>
+								
+								<select class="custom-select d-block form-control" id="guest" required data-error="Please select an item in the list.">
+								  <option disabled selected>Deal if final</option>
+								  <option value="1">Yes</option>
+								  <option value="2">No</option>
+								 
+								</select>
+								
+								<select class="custom-select d-block form-control" id="guest" required data-error="Please select an item in the list.">
+								  <option disabled selected>Payment through</option>
+								  <option value="1">Online services</option>
+								  <option value="2">Cash on delivery</option>
+								 
+								</select>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Start Story -->
+	<div id="story" class="story-box main-timeline-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Weeding dairies</h2>
+						
+					</div>
+				</div>
+			</div>
+			
+			<div class="timeLine">
+				<div class="row">
+					<div class="lineHeader hidden-sm hidden-xs"></div>
+					<div class="lineFooter hidden-sm hidden-xs"></div>
+
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item" >
+							<div class="caption">
+								<div class="star center-block">
+									<span class="h3">01</span>
+									<span>March  </span>
+									<span>2021</span>
+								</div>
+								<div class="image">
+									<img src="images/time-01.jpg" alt="" />
+									<div class="title">
+										<h2>First Meet <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+								<div class="textContent">
+									<p class="lead">We met at the wedding of our close friends and immediately found a common language, so a year later our first date happened.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+							<div class="caption">
+								<div class="star center-block">
+									<span class="h3">03</span>
+									<span>April</span>
+									<span>2021</span>
+								</div>
+								<div class="image">
+									<img src="images/time-02.jpg" alt="" />
+									<div class="title">
+										<h2>First date <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+								<div class="textContent">
+									<p class="lead">We met at the wedding of our close friends and immediately found a common language, so a year later our first date happened.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+							<div class="caption">
+								<div class="star center-block">
+									<span class="h3">03</span>
+									<span>May</span>
+									<span>2021</span>
+								</div>
+								<div class="image">
+									<img src="images/time-03.jpg" alt="" />
+									<div class="title">
+										<h2>Proposal <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+								<div class="textContent">
+									<p class="lead">We met at the wedding of our close friends and immediately found a common language, so a year later our first date happened.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+							<div class="caption">
+								<div class="star center-block">
+									<span class="h3">02</span>
+									<span>June</span>
+									<span>2021</span>
+								</div>
+								<div class="image">
+									<img src="images/time-04.jpg" alt="" />
+									<div class="title">
+										<h2>Engagement <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+								<div class="textContent">
+									<p class="lead">For 2 years of work as support engineer responsible about installing and maintenance SWIFT packages for banks. I gain a lot from it before i leave country.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+							<div class="caption">
+								<div class="star center-block">
+									<span class="h3">02</span>
+									<span>January</span>
+									<span>2022</span>
+								</div>
+								<div class="image">
+									<img src="images/time-05.jpg" alt="" />
+									<div class="title">
+										<h2>My Wedding <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+								<div class="textContent">
+									<p class="lead">Since then i came to Austria as refugee far from my lovers and friends far a way escaping from wars and threats searching a new life that i didn't find until yet.</p>
+								</div>
+							</div>
+						</div>
+
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<!-- End Story -->
+	
+	<!-- Start Contact -->
+	<div id="contact" class="contact-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Contact wth us</h2>
+						
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-sm-12 col-xs-12">
+				  <div class="contact-block">
+					<form id="contactForm">
+					  <div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
+								<div class="help-block with-errors"></div>
+							</div>                                 
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+								<div class="help-block with-errors"></div>
+							</div> 
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<select class="custom-select d-block form-control" id="guest" required data-error="Please select an item in the list.">
+								  <option disabled selected>Number Of Guest*</option>
+								  <option value="1">1</option>
+								  <option value="2">2</option>
+								  <option value="3">3</option>
+								  <option value="4">4</option>
+								  <option value="5">5</option>
+								</select>
+								<div class="help-block with-errors"></div>
+							</div> 
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<select class="custom-select d-block form-control" id="event" required data-error="Please select an item in the list.">
+								  <option disabled selected>I Am Attending*</option>
+								  <option value="1">All events</option>
+								  <option value="2">Wedding ceremony</option>
+								  <option value="3">Reception party</option>
+								</select>
+								<div class="help-block with-errors"></div>
+							</div> 
+						</div>
+						<div class="col-md-12">
+							<div class="form-group"> 
+								<textarea class="form-control" id="message" placeholder="Your Message" rows="8" data-error="Write your message" required></textarea>
+								<div class="help-block with-errors"></div>
+							</div>
+							<div class="submit-button text-center">
+								<button class="btn btn-common" id="submit" type="submit">Send Message</button>
+								<div id="msgSubmit" class="h3 text-center hidden"></div> 
+								<div class="clearfix"></div> 
+							</div>
+						</div>
+					  </div>            
+					</form>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Contact -->
+	
+	
+
+	<!-- ALL JS FILES -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.pogo-slider.min.js"></script> 
+	<script src="js/slider-index.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+    <script src="js/timeLine.min.js"></script>	
+	<script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
